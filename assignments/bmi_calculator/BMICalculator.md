@@ -28,4 +28,4 @@ Input - 67, 0
 Output - INVALID INPUT
 ```
 
-Run the test cases using ```npm run test:file bmi_calculator``` to see if you code is fine
+Run the test cases using ```npm run test:file bmi_calculator``` to see if you code is fine```npm run test:file bmi_calculator```
