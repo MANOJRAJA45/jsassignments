@@ -1,14 +1,38 @@
 <html>
     <head>
         <title>Todo List</title>
+        <link rel="stylesheet">
+        <style>
+            body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#box{
+    height:4%;
+    width:15%;
+    border: solid 1px black;
+}
+#box2{
+    height:4%;
+    width:8%;
+    border: solid 1px black;
+}
+button:hover {
+    color: orange;
+    background-color: black;
+  }
+        </style>
     </head>
     <body>
         <div>
-            <input type='text' name='todo_input' >
-            <button type='submit' >Add Todo</button>
-            <div class='todos'></div>
+            <input type="text" id="box"name="here todo input is there" placeholder="Add    Your     Task    Here">
+            <button type="submit" id="box2">ADD TODO</button>
+            <button id="completeditems">COMPLETED</button>
+            <button id="pendingitems">PENDING</button>
         </div>
-    
-    <script src='./script.js' defer></script>
+        <div id="ans">
+            <ul id="answer"></ul>
+        </div>
     </body>
-</html>
+    <script src='./script.js'></script>
